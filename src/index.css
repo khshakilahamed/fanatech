@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Merienda', cursive;
+  font-family: 'Poppins', sans-serif;
+}
+
+.orange-color{
+  color: #FF8B00;
+  ;
+}
+.btn-width {
+  width: 154px;
+  height: 58px;
+}
+
+.primary-btn {
+  background: #396C03;
+  outline: none;
+}
+
+.cart-btn {
+  width: 60px;
+  height: 60px;
+}
+
+.logo {
+  width: 141px;
+  height: 46px;
+}
+
+/* navbar  */
+.navbar-bg {
+  background-color: #F0F4EC;
+}
+
+
+/* banner */
+.banner {
+  /* height: 800px;    */
+  background-color: #F0F4EC;
+  width: 100%;
+  z-index: -200;
+}
+
+.banner-heading {
+  /* font-size: 65px; */
+  font-family: 'Merienda', cursive;
+  font-weight: 700;
+  color: #396C03;
+  /* line-height: 85px; */
+}
+
+.banner-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* width: max-content; */
+  border: 2px solid #396C03;
+  border-radius: 50px;
+}
+
+.search-box-input-color {
+  width: 49px;
+  height: 49px;
+  margin: 3px;
+  background-color: #FF8B00;
+  border-radius: 50%;
+}
+
+.search-input {
+  flex: 2;
+  outline: none;
+  margin: 0 10px;
+  background-color: transparent;
+}
+
+.search-input::placeholder{
+  font-size: 22px;
+}
+
+.leaf{
+  width: 288px;
+  /* height: 288px; */
+}
+
+/* explore city  */
+.explore-city{
+  background-color: #FFF9F2;
+}
