@@ -74,7 +74,7 @@ body {
 .search-box-input-color {
   width: 49px;
   height: 49px;
-  margin: 3px;
+  margin-left: 8px;
   background-color: #FF8B00;
   border-radius: 50%;
 }
@@ -123,10 +123,9 @@ body {
 
 @keyframes move {
   from {
-    background-position: 0 0;
+    left: 0;
   }
-
   to {
-    background-position: 0 100%;
+    left: 100%;
   }
 }
