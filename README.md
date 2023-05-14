@@ -1,1 +1,1 @@
-## live site link[https://incomparable-mermaid-d2aaed.netlify.app/]:  https://incomparable-mermaid-d2aaed.netlify.app/
+## [live site link](https://incomparable-mermaid-d2aaed.netlify.app/): https://incomparable-mermaid-d2aaed.netlify.app/
