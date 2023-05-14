@@ -77,6 +77,18 @@ body {
   margin-left: 8px;
   background-color: #FF8B00;
   border-radius: 50%;
+  animation:
+    bounce 300ms 5s alternate infinite cubic-bezier(.2, .65, .6, 1);
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-20px);
+  }
 }
 
 .search-input {
@@ -88,6 +100,20 @@ body {
 
 .search-input::placeholder {
   font-size: 22px;
+}
+
+.mainFoodPlate {
+  animation: plateMove 300ms linear infinite alternate;
+}
+
+@keyframes plateMove {
+  from {
+    left: 0;
+  }
+
+  to {
+    left: 100px;
+  }
 }
 
 .leaf {
@@ -125,7 +151,9 @@ body {
   from {
     left: 0;
   }
+
   to {
-    left: 100%;
+    left: 400px;
+    opacity: 0;
   }
 }

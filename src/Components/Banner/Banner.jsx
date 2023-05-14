@@ -26,7 +26,7 @@ const Banner = () => {
                 <div className='pt-40 md:pt-0 md:w-1/2 '>
                     <div className='flex justify-center relative'>
                         <div>
-                            <img className='z-40' src={mainFoodPlate} alt="food-plate" />
+                            <img className='z-40 mainFoodPlate' src={mainFoodPlate} alt="food-plate" />
                         </div>
                         <div className='absolute bg-white p-5 -top-16'>
                             <div className='flex gap-2'>
