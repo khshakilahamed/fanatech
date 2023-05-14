@@ -12,10 +12,14 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-.orange-color{
-  color: #FF8B00;
-  ;
+.primary-color {
+  color: #396C03;
 }
+
+.orange-color {
+  color: #FF8B00;
+}
+
 .btn-width {
   width: 154px;
   height: 58px;
@@ -82,16 +86,47 @@ body {
   background-color: transparent;
 }
 
-.search-input::placeholder{
+.search-input::placeholder {
   font-size: 22px;
 }
 
-.leaf{
+.leaf {
   width: 288px;
   /* height: 288px; */
 }
 
 /* explore city  */
-.explore-city{
+.explore-city {
   background-color: #FFF9F2;
+}
+
+.city-explore-heading {
+  font-family: 'Merienda', cursive;
+  font-weight: 700;
+}
+
+.city {
+  background: url(./assets/town.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 300px;
+}
+
+.rider {
+  width: 250px;
+  animation: move 4s linear infinite;
+  /* display: flex; */
+
+}
+
+@keyframes move {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: 0 100%;
+  }
 }
